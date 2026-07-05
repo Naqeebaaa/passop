@@ -1,0 +1,26 @@
+Website opens
+      │
+      ▼
+useEffect runs
+      │
+      ▼
+Read passwords from localStorage
+      │
+      ▼
+Store them in passwordArray state
+      │
+      ▼
+User types in inputs
+      │
+      ▼
+handleChange updates form state
+      │
+      ▼
+User clicks Add Password
+      │
+      ▼
+savePassword()
+      │
+      ├── Add new password to passwordArray
+      │
+      └── Save updated array to localStorage
